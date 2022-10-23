@@ -7,4 +7,4 @@ RUN git clone https://github.com/thedovekana/jumpgame.git  /var/www/html/
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
-##### ces quelques lignes permettent de créer l'image docker de l'app #####
+##### Ces quelques lignes permettent de créer l'image docker de l'app #####
